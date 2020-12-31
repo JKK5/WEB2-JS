@@ -20,8 +20,6 @@ var Body = {
     $('body').css('backgroundColor', color);
   }
 }
-
-
 function nightDayHandler(self){
   var target = document.querySelector('body');
   if (self.value === 'night') {
@@ -30,7 +28,6 @@ function nightDayHandler(self){
     self.value = 'day';
 
     Links.setColor('powderblue')
-
   } else {
     Body.setBackgroundColor('white');
     Body.setColor('black');
